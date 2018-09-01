@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ftr Yoklama</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Sonraki</string>
+    <string name="skip">GEÇ</string>
+    <string name="start">ANLADIM</string>
+
+    <string name="slide_1_title">Hastalarınızı Kaydedin</string>
+    <string name="slide_1_desc">Kolayca Hastlarınızı Veritabanımıza Kaydedin</string>
+
+    <string name="slide_2_title">Sağa ve Sola Kaydırın</string>
+    <string name="slide_2_desc">Sağa Kaydırıp Kayıtları Görün/Ekleyin, Sola Kaydırıp Hastanızı
+        Silin</string>
+
+    <string name="slide_3_title">Aylık Yapılan Durumlar</string>
+    <string name="slide_3_desc">Hastalarınızın Aylık Olarak Yoklamalarını Rahatlıkla Görün</string>
+
+    <string name="slide_4_title">İnternetinizi Açın</string>
+    <string name="slide_4_desc">Yapılan İşlemlerin Kaydının Tutmak için İnternete İhtiyaç
+        Duyuyoruz</string>
+
+    <string name="play_again_desc">Tekrar Görmek için Settings -> apps -> welcome slider -> clear
+        data</string>
+    <string name="play_again">Yeniden Oynat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Açıklama</string>
+    <string name="type">Kur</string>
+    <string name="payment">Ödeme</string>
+    <string name="date">Tarih</string>
+    <string name="amount">Miktar</string>
+    <string name="inorout">Para Yönü</string>
+    <string name="ad">Hasta Arama...</string>
+    <string name="adsoyad">Adı ve Soyadı...</string>
+    <string name="check_a">GELDİ</string>
+    <string name="check_b">GELMEDİ</string>
+    <string name="check_c">TELAFİ</string>
+    <string name="a">GELDİ</string>
+    <string name="b">GELMEDİ</string>
+    <string name="c">TELAFİ</string>
+
+
+
+
+</resources>

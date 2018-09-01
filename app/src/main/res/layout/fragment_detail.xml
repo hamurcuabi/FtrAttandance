@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- top toolbar -->
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_top_tabs" />
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.CardView xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        cardview:cardBackgroundColor="@color/colorBackground"
+        cardview:cardCornerRadius="2dp"
+        cardview:cardElevation="3dp"
+        cardview:cardUseCompatPadding="true"
+        cardview:contentPadding="2dp">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/a"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                cardview:layout_constraintBottom_toBottomOf="parent"
+                cardview:layout_constraintEnd_toStartOf="@+id/txtB"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toBottomOf="@+id/txtMemberName" />
+
+            <TextView
+                android:id="@+id/txtB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/b"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                cardview:layout_constraintBottom_toBottomOf="parent"
+                cardview:layout_constraintEnd_toStartOf="@+id/txtC"
+                cardview:layout_constraintStart_toEndOf="@+id/txtA"
+                cardview:layout_constraintTop_toBottomOf="@+id/txtMemberName" />
+
+            <TextView
+                android:id="@+id/txtC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/c"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                cardview:layout_constraintBottom_toBottomOf="parent"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toEndOf="@+id/txtB"
+                cardview:layout_constraintTop_toBottomOf="@+id/txtMemberName" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/txtMemberName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Emre Hamurcu"
+                android:textStyle="bold"
+                cardview:layout_constraintBottom_toTopOf="@+id/txtB"
+                cardview:layout_constraintEnd_toEndOf="parent"
+                cardview:layout_constraintStart_toStartOf="parent"
+                cardview:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/memberRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <ProgressBar
+            android:visibility="visible"
+            android:progressTint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pbLoad"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

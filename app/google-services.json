@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1078299411799",
+    "firebase_url": "https://ftrattandance.firebaseio.com",
+    "project_id": "ftrattandance",
+    "storage_bucket": "ftrattandance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078299411799:android:335a04b942ba2bca",
+        "android_client_info": {
+          "package_name": "com.emrehmrc.ftrattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078299411799-j06m3ki1ek05rddnq28ipic8cjieb0n0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emrehmrc.ftrattendance",
+            "certificate_hash": "4b607285c3f585974ed6c506abc2b4e81bc4595a"
+          }
+        },
+        {
+          "client_id": "1078299411799-psl0nlsn7c298ep0l1cbo4f8g7e25h21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqEBSBJT88Jh5gdA8jQj7fBLPne4kvlHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078299411799-psl0nlsn7c298ep0l1cbo4f8g7e25h21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
